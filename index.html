@@ -29,15 +29,15 @@
                     <th>Notes</th>
                     <th colspan="2">Completed</th>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="#">Meeting with mark</a></td>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>Meeting with mark</td>
                         <td>High</td>
-                        <td>21/1/2021</td>
+                        <td>2021-1-21</td>
                         <td>HS</td>
                         <td>False</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
+                        <td><a href="#" onclick="showForm(true,event)">Edit</a> | <a href="#" onclick="deleteRow(event)">Delete</a></td>
+                    </tr> -->
                 </tbody>
             </table>    
         </div>
@@ -49,6 +49,10 @@
         <label>
             Title
             <input type="text" id="title" placeholder="Enter Title here">
+        </label>
+        <label>
+            Due Date
+            <input type="date" id="date">
         </label>
         <label>
             Notes
@@ -68,7 +72,8 @@
                 <option value="True">True</option>
             </select>
         </label>
-        <button id="save">Save</button>
+        <button id="save">Generate</button>
+        <button id="update">Update</button>
     </div>
 
     <script src="app.js"></script>

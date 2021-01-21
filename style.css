@@ -46,7 +46,7 @@ a, h1{
     background-color: teal;
 }
 #table{
-    margin: 0px 10px;
+    margin: 10px;
     width: calc(100% - 20px);
 }
 #table thead{
