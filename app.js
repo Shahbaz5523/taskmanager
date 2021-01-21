@@ -21,7 +21,7 @@ hideFormBtn.onclick=()=>{
 // Generate a row functionality
 let saveBtn = document.getElementById("save");
 let generateRow = ()=>{
-    let titleText = 
+    // let titleText = 
 }
 
 
